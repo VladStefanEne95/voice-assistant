@@ -1,0 +1,70 @@
+Language model created by QuickLM on Sun Nov 26 04:52:43 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 8 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=18
+ngram 3=17
+
+\1-grams:
+-0.9294 </s> -0.3010
+-0.9294 <s> -0.2467
+-1.5315 BROWSER -0.2467
+-1.5315 CLOSE -0.2747
+-1.8325 FACEBOOK -0.2467
+-1.5315 IMAGE -0.2881
+-1.8325 IUTUB -0.2467
+-1.8325 MAIL -0.2467
+-1.1335 OPEN -0.2539
+-1.8325 SHOW -0.2946
+-1.8325 TIME -0.2467
+-1.5315 VIEWER -0.2467
+
+\2-grams:
+-0.9031 <s> CLOSE 0.0000
+-0.5051 <s> OPEN 0.0000
+-1.2041 <s> SHOW 0.0000
+-0.3010 BROWSER </s> -0.3010
+-0.6021 CLOSE BROWSER 0.0000
+-0.6021 CLOSE IMAGE 0.0000
+-0.3010 FACEBOOK </s> -0.3010
+-0.3010 IMAGE VIEWER 0.0000
+-0.3010 IUTUB </s> -0.3010
+-0.3010 MAIL </s> -0.3010
+-1.0000 OPEN BROWSER 0.0000
+-1.0000 OPEN FACEBOOK 0.0000
+-1.0000 OPEN IMAGE 0.0000
+-1.0000 OPEN IUTUB 0.0000
+-1.0000 OPEN MAIL 0.0000
+-0.3010 SHOW TIME 0.0000
+-0.3010 TIME </s> -0.3010
+-0.3010 VIEWER </s> -0.3010
+
+\3-grams:
+-0.6021 <s> CLOSE BROWSER
+-0.6021 <s> CLOSE IMAGE
+-1.0000 <s> OPEN BROWSER
+-1.0000 <s> OPEN FACEBOOK
+-1.0000 <s> OPEN IMAGE
+-1.0000 <s> OPEN IUTUB
+-1.0000 <s> OPEN MAIL
+-0.3010 <s> SHOW TIME
+-0.3010 CLOSE BROWSER </s>
+-0.3010 CLOSE IMAGE VIEWER
+-0.3010 IMAGE VIEWER </s>
+-0.3010 OPEN BROWSER </s>
+-0.3010 OPEN FACEBOOK </s>
+-0.3010 OPEN IMAGE VIEWER
+-0.3010 OPEN IUTUB </s>
+-0.3010 OPEN MAIL </s>
+-0.3010 SHOW TIME </s>
+
+\end\
